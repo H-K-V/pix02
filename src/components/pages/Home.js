@@ -39,7 +39,7 @@ function Home() {
      </div>
         
         <marquee behavior="scroll" direction="left" scrollamount="15">
-        <img src="img-2.jpg" width="120" height="80" alt="Natural" />
+        <img src="img-2.jpg" width="120" height="80" alt="SponsorImg" />
         </marquee>
 
         <p class="marquee">
