@@ -1,0 +1,117 @@
+.committee{
+    padding: 2rem;
+}
+
+h1{
+    text-align: center;
+    margin-top: none;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0;
+    font-family: var(--bs-body-font-family);
+    font-size: var(--bs-body-font-size);
+    font-weight: var(--bs-body-font-weight);
+    line-height: var(--bs-body-line-height);
+    color: var(--bs-body-color);
+    text-align: var(--bs-body-text-align);
+    background-color: var(--bs-body-bg);
+    -webkit-text-size-adjust: 100%;
+    -webkit-tap-highlight-color: transparent;
+}
+#first{
+    height:13.625rem;
+    width:55rem;
+    padding:10px;
+    flex-shrink: 0;
+    border-radius: 2.1875rem;
+    background: #FFF;
+    box-shadow: 8px 8px 4px 10px rgba(250, 255, 0, 0.46); 
+    margin-left: 160px;
+    margin-top: 25px;
+
+ }
+
+ #second{
+    padding:10px;
+    width: 55rem;
+    height: 13.625rem;
+    flex-shrink: 0;
+    border-radius: 2.1875rem;
+    background: #FFF;
+    box-shadow: 8px 8px 4px 10px rgba(250, 255, 0, 0.46);
+    margin-left: 160px;
+    margin-top: 40px;
+ }
+
+ #third{
+    padding:10px;
+    width: 55rem;
+    height: 13.625rem;
+    flex-shrink: 0;
+    border-radius: 2.1875rem;
+    background: #FFF;
+    box-shadow: 8px 8px 4px 10px rgba(250, 255, 0, 0.46);
+    margin-left: 160px;
+    margin-top: 40px;
+}
+
+#fourth{
+padding:10px;
+width: 55rem;
+height: 13.625rem;
+flex-shrink: 0;
+border-radius: 2.1875rem;
+background: #FFF;
+box-shadow: 8px 8px 4px 10px rgba(250, 255, 0, 0.46);
+margin-left: 160px;
+margin-top: 40px;
+}
+
+#fifth{
+padding:10px;
+width: 55rem;
+height: 18.4375rem;
+flex-shrink: 0;
+border-radius: 2.1875rem;
+background: #FFF;
+box-shadow: 8px 8px 4px 10px rgba(250, 255, 0, 0.46);
+margin-left: 160px;
+margin-top: 40px;
+}
+
+#sixth{
+padding:10px;
+width: 55rem;
+height: 18.4375rem;
+flex-shrink: 0;
+border-radius: 2.1875rem;
+background: #FFF;
+box-shadow: 8px 8px 4px 10px rgba(250, 255, 0, 0.46);
+margin-left: 160px;
+margin-top: 40px;
+margin-bottom: 40px;
+}
+
+
+p
+{
+color: #000;
+font-size: 2.25rem;
+font-family: Inria Sans;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+
+#first,
+#second,
+#third,
+#fourth,
+#fifth,
+#sixth {
+  text-align:center;
+  padding: 2rem;
+  display: flex;
+  flex-wrap: wrap;
+
+}

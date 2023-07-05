@@ -1,0 +1,84 @@
+import React from 'react';
+import './Footer.css';
+import { Button } from './Button';
+import { Link } from 'react-router-dom';
+
+function Footer() {
+  return (
+    <div className='footer-container'>
+      <section className='footer-subscription'>
+        <p className='footer-subscription-heading'>
+          Send us a message
+        </p>
+        <p className='footer-subscription-text'>
+          We will respond to your queries soon.
+        </p>
+        <div className='input-areas'>
+          <form>
+            <input
+              className='footer-input'
+              name='message'
+              type='message'
+              placeholder='Your Message'
+            />
+            <Button buttonStyle='btn--outline'>Send Message</Button>
+          </form>
+        </div>
+      </section>
+      <div class='footer-links'>
+        <div className='footer-link-wrapper'>
+          <div class='footer-link-items'>
+            <h2>About Us</h2>
+            <Link to='/'>About NITJ</Link>
+            <Link to='/'>Awards</Link>
+            <Link to='/'>Sponsors</Link>
+          </div>
+          <div class='footer-link-items'>
+            <h2>Our Team</h2>
+            <Link to='/'>Design Team</Link>
+            <Link to='/'>Development Team</Link>
+            <Link to='/'>Management Team</Link>
+          </div>
+        </div>
+      </div>
+      <section class='social-media'>
+        <div class='social-media-wrap'>
+          <div class='footer-logo'>
+            <Link to='/' className='social-logo'>
+             WREC | NITJ
+            </Link>
+          </div>
+          <small class='website-rights'>WREC | NITJ © 2023</small>
+          <div class='social-icons'>
+            <Link
+              class='social-icon-link instagram'
+              to='/'
+              target='_blank'
+              aria-label='Instagram'
+            >
+              <i class='fab fa-instagram' />
+            </Link>
+            <Link
+              class='social-icon-link youtube'
+              to='/'
+              target='_blank'
+              aria-label='Youtube'
+            >
+              <i class='fab fa-youtube' />
+            </Link>
+            <Link
+              class='social-icon-link twitter'
+              to='/'
+              target='_blank'
+              aria-label='LinkedIn'
+            >
+              <i class='fab fa-linkedin' />
+            </Link>
+          </div>
+        </div>
+      </section>
+    </div>
+  );
+}
+
+export default Footer;
