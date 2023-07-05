@@ -37,18 +37,27 @@
             display: inline;
             float: left;   
           }
+
+          .sponsors{
+            
+            margin-top:310px;
+            margin-bottom: 80px;
+            margin-right: 50px;
+            margin-left: 550px;
+          }
     
       .marquee {
         
-        margin: -80px;
+        margin-top: -80px;
+        margin-right: -80px;
         white-space: nowrap;
-        overflow: hidden;
+        overflow:visible;
         position: absolute;
       }
     .marquee span {
         display: inline-block;
         padding-left: 100%;
-        animation: marquee 16s linear infinite;
+        animation: marquee 20s linear infinite;
       }
       
       @keyframes marquee {

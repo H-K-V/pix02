@@ -36,14 +36,19 @@ function Home() {
        </p>
        </div>
 
+      
      </div>
+     <div className='sponsors'>
+        <h2> <u>SPONSERS</u> </h2>
+        </div>
+
         
         <marquee behavior="scroll" direction="left" scrollamount="15">
         <img src="img-2.jpg" width="120" height="80" alt="SponsorImg" />
         </marquee>
 
         <p class="marquee">
-        <span> IEEE -- POWERGRID -- NPHAS -- OPAL-F TECHNOLOGY -- POSOCO -- PES -- IOCL -- HPCL -- &nbsp;</span>
+        <span> IEEE -- POWERGRID -- NPHAS -- OPAL-F TECHNOLOGY -- POSOCO -- PES -- IOCL -- HPCL --IEEE -- POWERGRID -- NPHAS -- OPAL-F TECHNOLOGY -- POSOCO -- PES -- IOCL -- HPCL -- &nbsp;</span>
       </p></>
   );
 }
